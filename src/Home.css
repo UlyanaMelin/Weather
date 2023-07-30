@@ -1,0 +1,153 @@
+.wrapper_top_geo_temp {
+  display: flex;
+  margin-left: 10vh;
+  width: 20vh;
+  height: 3vh;
+  padding-top: 2vh;
+  justify-content: center;
+}
+
+.icon_top_geo_temp {
+  background: url(./image/GeoTopIcon.png) no-repeat;
+  background-size: 100%;
+  width: 2.5vh;
+  height: 2.5vh;
+  margin-top: 20px;
+  margin-right: 0.6vh;
+}
+
+.text_top_geo_temp {
+  font-family: inherit;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+
+.wrapper_home {
+  margin: 0;
+  padding-top: 17vh;
+  width: 100%;
+  /* height: 400px; */
+  display: flex;
+  justify-content: center;
+
+}
+
+.wrapper_input {
+  position: relative;
+}
+
+.city_imput {
+  padding-top: 12vh;
+  margin-top: 0.5vh;
+  width: 35vh;
+  height: 2.5vh;
+  font-family: inherit;
+  border: 0;
+  border-bottom: 2px solid white;
+  outline: 0;
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+  padding: 7px 0px;
+  background: transparent;
+}
+
+.city_imput::placeholder {
+  color: rgb(90, 90, 90);
+}
+
+.autocomplete {
+  position: absolute;
+  left: 0;
+  top: 43px;
+  width: 35vh;
+  background: white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 999;
+  max-height: 240px;
+  height: auto;
+  overflow: auto;
+}
+
+.autocomplete_item {
+  padding: 10px;
+}
+
+.autocomplete_item:hover {
+  background: gray;
+  cursor: pointer;
+  transition: ease-in-out .4s all;
+}
+
+
+
+.btn_entry_sity {
+  cursor: pointer;
+  margin-left: 2vh;
+  margin-top: 8px;
+  opacity: 0.6;
+  width: 8vh;
+  height: 4vh;
+  text-align: center;
+  display: block;
+  font-family: inherit;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  transition: .4s;
+  border-radius: 0px;
+  border-radius: 15px;
+}
+
+.btn_entry_sity:hover {
+  top: 5px;
+  transition: .4s;
+  color: #10FF58;
+  border: #10FF58 1px solid;
+  border-radius: 15px;
+  background-color: rgb(65, 65, 65);
+}
+
+.btn_entry_sity:active {
+  color: #000;
+  border: #1A1A1A 5px solid;
+  transition: .05s;
+  background-color: #FFF;
+}
+
+.eror_imp {
+  font-family: inherit;
+  color: red;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.btn_geoposition {
+  cursor: pointer;
+  margin-top: 1vh;
+  margin-left: 2vh;
+  width: 4vh;
+  height: 4vh;
+  padding-left: 18px;
+  background: url(./image/geoposition.png) no-repeat;
+  background-size: 100%;
+  border: #272727 2px solid;
+  border-radius: 25px;
+  transition: .4s;
+}
+
+.btn_geoposition:hover {
+  background-color: #10FF58;
+}
+
+.btn_geoposition:active {
+  color: #000;
+  border: #1A1A1A 5px solid;
+  transition: .05s;
+  background-color: #FFF;
+}
+
+.link_none {
+  text-decoration: none;
+}
